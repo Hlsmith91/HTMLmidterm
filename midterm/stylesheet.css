@@ -1,0 +1,116 @@
+
+
+body {
+    background: url("paintBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333333;
+    font-family: Verdana, sans-serif;
+}
+
+    body.PopArt {
+        background: url("PopArtBackground.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body.Cubism {
+        background: url("CubismBackground.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body.Contemporary {
+        background: url("ContemporaryBackground.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body.Abstract {
+        background: url("AbstractBackground.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+a{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+	
+   
+}
+
+#First{
+    padding-top: 20px;
+    padding-left: 220px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: grey;
+    justify-content:center;
+}
+
+a:link{
+    color:white;
+}
+
+a:active{
+    color:dodgerblue;
+}
+
+a:visited{
+    color: black;
+}
+
+#Home{
+	font-family: 'Charmonman', cursive;
+	margin-left: 30px;
+	font-size: 100px;
+}
+
+
+h2 {
+    font-family: Georgia,serif;
+    font-size: 32px;
+}
+
+footer {
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+
+}
+
+img {
+	float: left;
+    width: 300px;
+	height: 300px;
+
+}
+.Column {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+
+.Row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#wrapper {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 700px;
+    max-width: 1024px;
+}
